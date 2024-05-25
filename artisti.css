@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    max-width: 1400px;
+    background-color: #656565;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header div {
+display: flex;
+font-size: 24px;
+
+}
+
+header {
+    max-width: 1400px;
+    height: 100px;
+    margin: 0;
+    padding: 0 16px;
+    background-color: black;
+}
+
+
+header nav ul {
+    color:;
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    padding-top: 30px;
+    padding-left: 250px;
+ 
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header nav a {
+    color: #666;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
+
+header  img {
+height: 70px;
+padding-top: 15px;
+}
+section.s1artisti {
+    max-width: 1400px;
+    display: flex;
+}
+
+section.s1artisti img{
+    height: 100px;
+}
+ 
+
+section.s1artisti h2{
+    padding-top: 50px;
+    padding-left: 100px;
+    color: #ffffff;
+}
+
+section.s1artisti p{
+    padding-left: 100px;
+    width: 500px;
+    color: #ffffff;
+}
+
+div.faccie {
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    max-width: 700px;
+    margin:48px auto;
+    gap: 20px;
+}
+
+section.s2artisti {
+    max-width: 1400px;
+    height: 1080px;
+    background-image: url(img/sfondodue.png);
+    background-size:cover;
+}
+.pazzo nav ul {
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 20px;
+    list-style: none;
+    padding-top: 450px;
+    padding-left: 200px;
+    font-size: 36px;
+   
+ 
+}
+
+.pazzo nav ul  {
+     text-decoration: none;
+    color: #ffffff;
+}
+
+.pazzo a {
+list-style: none;
+}
+
+footer {
+    max-width: 1400px;
+    height: 100px;
+    background-color: black;
+}
+
+
+.container ul {
+    justify-content: center;
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    gap: 300px;
+    list-style: none;
+}
+
+
+ footer img {
+    height: 30px;
+}
+
+footer p {
+font-size: 8px;
+padding-left: 10px;
+color: #ffffff;
+}
+
+
+
+
+
+
+
+ 
+
