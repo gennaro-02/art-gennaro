@@ -1,6 +1,6 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    max-width: 1400px;
+    max-width: 100%;
     background-color: #656565;
     margin: 0;
 }
@@ -16,7 +16,7 @@ font-size: 24px;
 }
 
 header {
-    max-width: 1400px;
+    max-width: 100%;
     height: 100px;
     margin: 0;
     padding: 0 16px;
@@ -57,7 +57,7 @@ padding-top: 15px;
 }
 
 .s1mostra {
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0;
     height: 700px;
  
@@ -69,14 +69,14 @@ padding-top: 15px;
 
 .s1mostra p {
     padding-top: 100px;
-    margin: 50px auto;
+    margin:auto;
     color: #ffffff;
     width: 800px;
 }
 
 
 footer {
-    max-width: 1400px;
+    max-width: 100%;
     height: 100px;
     background-color: black;
 }
